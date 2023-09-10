@@ -1,0 +1,61 @@
+@import "../../fonts/stylesheet.css";
+
+.chat {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: #f9f9f9;
+  border-radius: 40px 0px 0px 40px;
+  height: 86vh;
+}
+
+.chat-history {
+  height: calc(100% - 180px);
+  overflow-y: scroll;
+  padding: 40px;
+  padding-bottom: 0;
+}
+.input-container {
+  position: relative;
+  padding-top: 40px;
+}
+.helper-text {
+  position: absolute;
+  top: 0;
+  left: 22%;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #acadad;
+}
+.sent-message {
+  width: fit-content;
+  background-color: #fee2c5;
+  padding: 25px 43px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 40px 40px 0px 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+.received-message {
+  width: fit-content;
+  background-color: #c4ddff;
+  padding: 25px 43px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 40px 40px 40px 0px;
+  margin-bottom: 20px;
+}
+.input-btn {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.input {
+  width: 52%;
+}
