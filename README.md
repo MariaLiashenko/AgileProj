@@ -29,6 +29,15 @@ backend
 $ npm run start:dev
 
 ```
+#### .env file 
+In file agile-ai-coach-server you need to create .env file with such variables
+
+```bash
+# .env
+OPENAI_API_KEY= "Your openAI key, you can create it in your openAi account"
+ORGANIZATION_ID = "Your organisation, you can get it from your openAi account"
+```
+
 ### Usage
 You can seek advice on various topics, and the system provides guidance in line with Agile principles
 You can request the creation of user stories, and the system prompts them for specific details, including:
